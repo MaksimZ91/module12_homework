@@ -62,3 +62,4 @@ myElectricstove.closeCircuit(true)
 myElectricstove.cooking(true)
 test(myElectricstove)
 
+//Доброго времени суток!))Посоветуйте хорошую книжку по JS пожалуйста?)
