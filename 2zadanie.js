@@ -13,3 +13,4 @@ function strInObj (str,obj){
 strInObj("name",book);
 strInObj("size",book);
 
+// Всё верно, есть только небольшое замечание: строчка return console.log(str in obj) не имеет смысла, потому что так функция возвращает undefined (результат выполнения console.log) и это значение всё равно нигде не используется. Лучше написать либо просто console.log(str in obj), либо return str in obj и тогда обернуть в console.log сам вызов функции ниже.
